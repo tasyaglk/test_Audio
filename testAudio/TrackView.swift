@@ -37,10 +37,6 @@ struct ContentView: View {
                     Text("Play")
                 }
                 
-                Button {
-                } label: {
-                    Text("Pause")
-                }
             }
             .padding()
         }
