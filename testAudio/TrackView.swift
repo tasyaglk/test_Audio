@@ -11,8 +11,8 @@ import AVFoundation
 
 struct ContentView: View {
     @StateObject var viewModel = AudioPlayerViewModel()
-    @State var pitchEffect: Int = 1
-        @State var speedEffect: Int = 1
+    @State var pitchEffect: Int = 0
+    @State var speedEffect: Int = 1
     let array = Array(-240...240)
     let array2 = Array(1...32)
 
